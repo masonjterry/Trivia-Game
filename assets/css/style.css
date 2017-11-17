@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('');
+}
+
+h1 {
+	font-size: 50px;
+	margin: 20px;
+}
+
+h2 {
+	font-size: 40px;
+	margin: 20px;
+}
+
+#answer1, #answer2, #answer3, #answer4, #question {
+	background-color: #fff;
+	text-align: center;
+	height: 50px;
+	margin: 5px;
+	line-height: 2.5;
+}
+
+#timer, #header {
+	text-align: center;
+}
+
+.container {
+	background-color: #ccc;
+	margin: 50px auto 0 auto;
+}
+
+section {
+	width: 650px;
+	height: 500px;
+}
+
+.contain {
+	width: 500px;
+	height: 350px;
+	margin: 50px auto 0px auto;
+}
+
+.click {
+	cursor: pointer;
+}

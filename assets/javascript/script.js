@@ -14,43 +14,43 @@ $(document).ready(function() {
 
 	quesOne: {
 		question: 'Against what opposing team did Babe Ruth hit his first career home run?',
-		answers: ['#New York Yankees', 'Boston Red Sox', 'Chicago Cubs', 'Baltimore Black Sox']
+		answers: ['New York Yankees', 'Boston Red Sox', 'Chicago Cubs', 'Baltimore Black Sox']
 	},
 	quesTwo: {
 		question: 'Who was the first Major League player to pitch a ball over 100 mph?',
-		answers: ['Dwight Gooden', 'Roger Clemons', 'Tom Seaver', '#Nolan Ryan']
+		answers: ['Dwight Gooden', 'Roger Clemons', 'Tom Seaver', 'Nolan Ryan']
 	},
 	quesThree: {
 		question: 'Who was the first Major League player to have his number retired?',
-		answers: ['Charlie Robertson', 'Babe Ruth', '#Lou Gehrig', 'George Kelly']
+		answers: ['Charlie Robertson', 'Babe Ruth', 'Lou Gehrig', 'George Kelly']
 	},
 	quesFour: {
 		question: 'What player was nicknamed "Mr. November"?',
-		answers: ['#Derek Jeter', 'Mariano Rivera', 'David Ortiz', 'Reggie Jackson']
+		answers: ['Derek Jeter', 'Mariano Rivera', 'David Ortiz', 'Reggie Jackson']
 	},
 	quesFive: {
 		question: 'Who was the first baseball player to appear on a Wheaties cereal box?',
-		answers: ['#Lou Gehrig', 'Mel Ott', 'Babe Ruth', 'Joe Dimaggio']
+		answers: ['Lou Gehrig', 'Mel Ott', 'Babe Ruth', 'Joe Dimaggio']
 	},
 	quesSix: {
 		question: 'How long was the shortest game in Major League Baseball history?',
-		answers: ['#51 minutes', '1 hour 15 minutes', '1 hour 1 minute', '1 hour 33 minutes']
+		answers: ['51 minutes', '1 hour 15 minutes', '1 hour 1 minute', '1 hour 33 minutes']
 	},
 	quesSeven: {
 		question: 'During which inning is "Take Me Out to the Ballgame" traditionally sung?',
-		answers: ['3rd', '#7th', '1st', '5th']
+		answers: ['3rd', '7th', '1st', '5th']
 	},
 	quesEight: {
 		question: 'How many baseballs are used during a typical Major League Baseball game?',
-		answers: ['10', '50', '30', '#100']
+		answers: ['10', '50', '30', '100']
 	},
 	quesNine: {
 		question: 'Who was the first Major League player to hit four home runs in a single game?',
-		answers: ['Lou Gehrig', '#Bobby Lowe', 'Babe Ruth', 'Ed Delahanty']
+		answers: ['Lou Gehrig', 'Bobby Lowe', 'Babe Ruth', 'Ed Delahanty']
 	},
 	quesTen: {
 		question: 'What year did the first recorded baseball game take place?',
-		answers: ['#1749', '1949', '1849', '1649']
+		answers: ['1749', '1949', '1849', '1649']
 	}};
 
 	var timeLimit = 30;

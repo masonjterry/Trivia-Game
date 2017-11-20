@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	var correct = 0;
-	var incorrect = 10;
+	var incorrect = 0;
 	var unanswered = 0;
 
 	var setIntervalId;
@@ -55,11 +55,9 @@ $(document).ready(function() {
 
 	var timeLimit = 30;
 
-	$('.click').on('click', function() {
+	$(document).on('click', '.click', function() {
 
 	click = $(this).attr('value');
-
-	console.log(click);
 
 		questionOne();
 		startTimer();
@@ -90,17 +88,15 @@ $(document).ready(function() {
 		$('#answer3').text(trivia.quesOne.answers[2]);
 		$('#answer4').text(trivia.quesOne.answers[3]);
 
-		$('.click').on('click', function() { 
+		$(document).on('click', '.click', function() {
 			click = $(this).attr('value');
-			console.log('click: ' + click);
 
 		if (click == 1) {
 			correct++;
-			incorrect--;
-			console.log("correct: " + correct);
 		} else if (click == null) {
 			unanswered++;
-			console.log('unanswered: ' + unanswered);
+		} else {
+			incorrect++;
 		}
 
 		clearInterval(setIntervalId);
@@ -120,16 +116,15 @@ $(document).ready(function() {
 		$('#answer3').text(trivia.quesTwo.answers[2]);
 		$('#answer4').text(trivia.quesTwo.answers[3]);
 
-		$('.click').on('click', function() { 
+		$(document).on('click', '.click', function() {
 			click = $(this).attr('value');
 
 		if (click == 4) {
 			correct++;
-			incorrect--;
-			console.log("correct: " + correct);
 		} else if (click == null) {
 			unanswered++;
-			console.log('unanswered: ' + unanswered);
+		} else {
+			incorrect++;
 		}
 
 		clearInterval(setIntervalId);
@@ -148,16 +143,15 @@ $(document).ready(function() {
 		$('#answer3').text(trivia.quesThree.answers[2]);
 		$('#answer4').text(trivia.quesThree.answers[3]);
 
-		$('.click').on('click', function() { 
+		$(document).on('click', '.click', function() {
 			click = $(this).attr('value');
 
 		if (click == 3) {
 			correct++;
-			incorrect--;
-			console.log("correct: " + correct);
 		} else if (click == null) {
 			unanswered++;
-			console.log('unanswered: ' + unanswered);
+		} else {
+			incorrect++;
 		}
 
 		clearInterval(setIntervalId);
@@ -176,16 +170,15 @@ $(document).ready(function() {
 		$('#answer3').text(trivia.quesFour.answers[2]);
 		$('#answer4').text(trivia.quesFour.answers[3]);
 
-		$('.click').on('click', function() { 
+		$(document).on('click', '.click', function() {
 			click = $(this).attr('value');
 
 		if (click == 1) {
 			correct++;
-			incorrect--;
-			console.log("correct: " + correct);
 		} else if (click == null) {
 			unanswered++;
-			console.log('unanswered: ' + unanswered);
+		} else {
+			incorrect++;
 		}
 
 		clearInterval(setIntervalId);
@@ -204,16 +197,15 @@ $(document).ready(function() {
 		$('#answer3').text(trivia.quesFive.answers[2]);
 		$('#answer4').text(trivia.quesFive.answers[3]);
 
-		$('.click').on('click', function() { 
+		$(document).on('click', '.click', function() {
 			click = $(this).attr('value');
 
 		if (click == 1) {
 			correct++;
-			incorrect--;
-			console.log("correct: " + correct);
 		} else if (click == null) {
 			unanswered++;
-			console.log('unanswered: ' + unanswered);
+		} else {
+			incorrect++;
 		}
 
 		clearInterval(setIntervalId);
@@ -232,16 +224,15 @@ $(document).ready(function() {
 		$('#answer3').text(trivia.quesSix.answers[2]);
 		$('#answer4').text(trivia.quesSix.answers[3]);
 
-		$('.click').on('click', function() { 
+		$(document).on('click', '.click', function() {
 			click = $(this).attr('value');
 
 		if (click == 1) {
 			correct++;
-			incorrect--;
-			console.log("correct: " + correct);
 		} else if (click == null) {
 			unanswered++;
-			console.log('unanswered: ' + unanswered);
+		} else {
+			incorrect++;
 		}
 
 		clearInterval(setIntervalId);
@@ -260,16 +251,15 @@ $(document).ready(function() {
 		$('#answer3').text(trivia.quesSeven.answers[2]);
 		$('#answer4').text(trivia.quesSeven.answers[3]);
 
-		$('.click').on('click', function() { 
+		$(document).on('click', '.click', function() {
 			click = $(this).attr('value');
 
 		if (click == 2) {
 			correct++;
-			incorrect--;
-			console.log("correct: " + correct);
 		} else if (click == null) {
 			unanswered++;
-			console.log('unanswered: ' + unanswered);
+		} else {
+			incorrect++;
 		}
 
 		clearInterval(setIntervalId);
@@ -288,16 +278,15 @@ $(document).ready(function() {
 		$('#answer3').text(trivia.quesEight.answers[2]);
 		$('#answer4').text(trivia.quesEight.answers[3]);
 
-		$('.click').on('click', function() { 
+		$(document).on('click', '.click', function() {
 			click = $(this).attr('value');
 
 		if (click == 4) {
 			correct++;
-			incorrect--;
-			console.log("correct: " + correct);
 		} else if (click == null) {
 			unanswered++;
-			console.log('unanswered: ' + unanswered);
+		} else {
+			incorrect++;
 		}
 
 		clearInterval(setIntervalId);
@@ -316,16 +305,15 @@ $(document).ready(function() {
 		$('#answer3').text(trivia.quesNine.answers[2]);
 		$('#answer4').text(trivia.quesNine.answers[3]);
 
-		$('.click').on('click', function() { 
+		$(document).on('click', '.click', function() {
 			click = $(this).attr('value');
 
 		if (click == 2) {
 			correct++;
-			incorrect--;
-			console.log("correct: " + correct);
 		} else if (click == null) {
 			unanswered++;
-			console.log('unanswered: ' + unanswered);
+		} else {
+			incorrect++;
 		}
 
 		clearInterval(setIntervalId);
@@ -344,15 +332,15 @@ $(document).ready(function() {
 		$('#answer3').text(trivia.quesTen.answers[2]);
 		$('#answer4').text(trivia.quesTen.answers[3]);
 
-		$('.click').on('click', function() { 
+		$(document).on('click', '.click', function() {
 			click = $(this).attr('value');
 
 		if (click == 1) {
 			correct++;
-			console.log("correct: " + correct);
 		} else if (click == null) {
 			unanswered++;
-			console.log('unanswered: ' + unanswered);
+		} else {
+			incorrect++;
 		}
 
 		clearInterval(setIntervalId);
@@ -368,11 +356,11 @@ $(document).ready(function() {
 		$('#answer2').text('Incorrect Answers: ' + incorrect);
 		$('#answer3').text('Unanswered: ' + unanswered);
 		$('#answer4').text('');
-		
+
 		setTimeout(questionOne, 5000);
 
 		clearInterval(setIntervalId);
-		
+
 	}
 
 });

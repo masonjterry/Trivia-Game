@@ -18,7 +18,7 @@ h2 {
 	margin: 20px;
 }
 
-#answer1, #answer2, #answer3, #answer4, #question {
+button, #question {
 	background-color: #fff;
 	text-align: center;
 	width: 500px;
